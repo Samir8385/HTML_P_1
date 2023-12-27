@@ -1,0 +1,265 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0px;
+}
+
+header {
+    background-image: url("./back.jpg");
+    margin: 0;
+    padding: none;
+    display: flex;
+    margin-bottom: 1px;
+    box-shadow: 10px 10px 10px rgb(143, 143, 143);
+}
+
+ul, li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    display: flex;
+    margin-top: 7px;
+}
+
+ul {
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#hero {
+    display: flex;
+    padding: 5px;
+}
+
+#alom {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: width 0.3s, height 0.3s;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+a:after {
+    content: "";
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    transition: left 0.3s ease;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+a:hover:after {
+    left: 100%;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+#int {
+    margin-top: 150px;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    background-image: url(./Untitled\ design.png);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 10px 10px gray;
+    width: 20%;
+    position: absolute;
+   margin-left: 20px;
+}
+
+#exp {
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./Untitled\ design.png");
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 750px; /* Adjust this margin as needed */
+    margin-top: 1px;
+    position: relative;
+}
+
+
+#git {
+    position: absolute;
+    border: 3px solid black;
+    padding-top: 1px;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+    background-color: #00ffdd;
+    margin-left: 600px;
+    margin-bottom: 5px;
+}
+
+#git1 {
+    position: absolute;
+    background-color: #00ff80;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 140px;
+    margin-left: 625px;
+}
+
+#gith {
+    position: absolute; /* Use relative positioning for the container */
+    border: 3px solid black;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+    background-color: #00ffdd;
+    margin-top: 1px;
+    margin-left: 750px; /* Adjust this margin as needed */
+    margin-bottom: 5px;
+}
+
+#gith1 {
+    position: absolute; /* Use relative positioning for #gith1 */
+    background-color: #00ff80;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 140px;
+    margin-left: 780px; /* Adjust the margin-left as needed */
+}
+
+
+#node {
+    position: absulute; /* Use relative positioning for the container */
+    padding: 2px;
+    border: 3px solid black;
+    width: 125px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #00ffdd;
+    margin-top: 1px;
+    margin-left: 900px; /* Adjust this margin as needed */
+    margin-bottom: 5px;
+}
+
+#nodejs {
+    position: relative; /* Use relative positioning for #gith1 */
+    background-color: #00ff80;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+    margin-top: -1px;
+    margin-left: 930px; /* Adjust the margin-left as needed */
+}
+
+
+#CSS {
+    position: relative;
+    padding: 2px;
+    border: 3px solid black;
+    width: 125px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #00ffdd;
+    margin-top: -100px;
+    margin-left: -640px;
+    margin-bottom: 0px;
+    margin-top: auto;
+}
+
+#cssh {
+    position: relative;
+    background-color: #00ff80;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+    margin-top: -1px;
+    margin-left: 800px;
+}
+
+#HTML {
+    padding: 2px;
+    border: 3px solid black;
+    width: 125px;
+    height: 122.5px;
+    border-radius: 10px;
+    background-color: #00ffdd;
+    margin-top: 180px;
+    margin-left: -600px;
+    margin-bottom: 5px;
+}
+
+#htmlh {
+    position: relative;
+    background-color: #00ff80;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 320px;
+    margin-left: -125px;
+}
+
+
+#rafi{
+    border-radius: 20px;
+    border: 3px solid black;
+    background-image: url("./back.jpg");
+    height: 100px;
+    padding: 50px;
+    margin-right: 50px;
+    margin-left: 90px;
+    margin-top: 200px;
+    position: absolute;
+    box-shadow: 10px 10px 15px black;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+#tati{
+    margin-left: 850px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-image: url("back.jpg");
+    margin-top: 75px;
+    box-shadow: 5px 5px 5px rgb(65, 65, 65);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#porota {
+    margin-left: 475px;
+    color: transparent;
+    margin-bottom: 20px;
+}

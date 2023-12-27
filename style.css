@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("./back.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: 1px;
+    box-shadow: 10px 10px 10px rgb(143, 143, 143);
+}
+
+ul, li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    display: flex;
+    margin-top: 7px;
+}
+
+ul {
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#hero {
+    display: flex;
+    padding: 5px;
+}
+
+#alom {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: width 0.3s, height 0.3s;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+a:after {
+    content: "";
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    transition: left 0.3s ease;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+a:hover:after {
+    left: 100%;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+
+#h1tag {
+    position: relative;
+    color: aliceblue;
+    padding: 20px;
+    margin-left: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#type {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    margin-top: 50px; /* Added margin to separate image and table */
+    box-shadow: 10px 10px 20px black;
+    margin-bottom: 70px;
+}
+
+td, th, tr {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3498db;
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    background-color: rgb(0, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+#helo{
+    border: 2px solid black;
+    margin-top: 300px;
+    width: 600px;
+}
+
+#rafi{
+    border-radius: 20px;
+    border: 3px solid black;
+    background-image: url("./back.jpg");
+    height: 100px;
+    padding: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    position: absolute;
+    box-shadow: 10px 10px 15px black;
+    margin-bottom: 50px;
+}
+
+#tati{
+    margin-left: 900px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-image: url("back.jpg");
+    margin-top: 75px;
+    box-shadow: 5px 5px 5px rgb(65, 65, 65);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#porota {
+    margin-left: 475px;
+    color: transparent;
+    margin-bottom: 20px;
+}
+
